@@ -37,3 +37,6 @@
         background-color: rgb(178, 178, 178);
         padding: 5px;
     }
+    а img {
+        box-shadow: 10px 5px 5px grey;
+    }
