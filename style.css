@@ -1,42 +1,42 @@
     body {
         background-color: rgb(235, 235, 235);
-        font-family: 'Times New Roman', Times, serif;
-        line-height: 1,5;
+        font-family: Arial, sans-serif;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        padding: 5px;
-        /* margin: 2px; */
-        /* border: 1px solid red; */
+        padding: 10px;
     }
     .my_photo {
         width: 300px;
         height: auto;
     }
-    /* head {
-        border: 1px solid red;
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    main {
-        border: 1px solid red;
-    }
-    footer {
-        border: 1px solid red;
-    } */
     section {
-        font-family:Arial, Helvetica, sans-serif;
+        font-family: Arial, sans-serif;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         padding: 2px; 
-        /* margin: 2px; */
-        /* border: 1px solid red; */
     }
     .backgraund-color-code {
         background-color: rgb(178, 178, 178);
-        padding: 5px;
     }
-    а img {
-        box-shadow: 10px 5px 5px grey;
+    footer {
+        text-align: center;
+    }
+    #about_me {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        max-width: 1000px;        
+    }
+    a img {
+        width: 150px;
+        height: auto;   
     }
