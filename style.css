@@ -1,42 +1,49 @@
-    body {
-        background-color: rgb(235, 235, 235);
-        font-family: Arial, sans-serif;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
-    }
-    .my_photo {
-        width: 300px;
-        height: auto;
-    }
-    header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    section {
-        font-family: Arial, sans-serif;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding: 2px; 
-    }
-    .backgraund-color-code {
-        background-color: rgb(178, 178, 178);
-    }
-    footer {
-        text-align: center;
-    }
-    #about_me {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        max-width: 1000px;        
-    }
-    a img {
-        width: 150px;
-        height: auto;   
-    }
+body {
+    background-color: rgb(235, 235, 235);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.my_photo {
+    width: 300px;
+    height: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}
+
+.backgraund-color-code {
+    background-color: rgb(178, 178, 178);
+}
+
+footer {
+    text-align: center;
+}
+
+#about_me {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    max-width: 1000px;
+}
+
+a img {
+    width: 150px;
+    height: auto;
+}
