@@ -1,8 +1,8 @@
 # Evgeny Zimagorov
 
 ## Contacts
-Telegram: [@EvGeniusZi](https://t.me/EvGeniusZi)
-Email: zimagorov.evgeniy@gmail.com
+Telegram: [@EvGeniusZi](https://t.me/EvGeniusZi)  
+Email: zimagorov.evgeniy@gmail.com  
 Discord: [evgeniyzi_14947](https://discordapp.com/users/1233453368891015288/)
 
 ## About Me
