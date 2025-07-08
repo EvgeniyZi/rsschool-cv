@@ -1,9 +1,9 @@
 # Evgeny Zimagorov
 
 ## Contacts
-Telegram: @EvGeniusZi  
-Email: zimagorov.evgeniy@gmail.com  
-Discord: evgeniyzi_14947  
+Telegram: [@EvGeniusZi](https://t.me/EvGeniusZi)
+Email: zimagorov.evgeniy@gmail.com
+Discord: [evgeniyzi_14947](https://discordapp.com/users/1233453368891015288/)
 
 ## About Me
 I am 41 years old. For the last 17 years, I have worked as a design engineer in the construction department of [the Scientific Research and Design Republican Unitary Enterprise Belenergosetproject](https://www.besp.by/index.php/en/)
