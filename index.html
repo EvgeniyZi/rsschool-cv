@@ -3,129 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+    <title>CV</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-        <img src="my_photo.jpg" alt="my photo" height="300">
-        <h1>Evgeny Zimagorov</h1>
+    <header class="wrapper">
+        <div class="top_bar">
+            <img class="my_photo-img" src="my_photo.jpg" alt="my photo">
+            <div>
+                <h1>Evgeny Zimagorov</h1>
+                <h3>Front-End Developer</h3>
+            </div>
+        </div>
         <nav>
             <ul>
                 <li><a href="#contacts">Contacts</a></li>
-                <li><a href="#about_me">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#about_me">About Me</a></li>
                 <li><a href="#code">Code examples</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#languages">Languages</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section id="contacts">
-            <h2>Contacts:</h2>
-            <ul>
-                <li>
-                    <p><i>Telegram: </i><a href="https://t.me/EvGeniusZi"><img src="./images/telegram.png" alt="telegram">@EvGeniusZi</a></p>
-                </li>
-                <li>
-                    <p><i>Email: </i><a href="mailto:zimagorov.evgeniy@gmail.com">zimagorov.evgeniy@gmail.com</a></p>
-                </li>
-                <li>
-                    <p><i>Discord: </i><a href="https://discordapp.com/users/1233453368891015288/"> evgeniyzi_14947</a>
-                    </p>
-                </li>
-            </ul>
-        </section>
-        <section id="about_me">
-            <h2>About Me:</h2>
-            <p>I am 41 years old. For the last 17 years, I have worked as a design engineer in the construction
-                department of <a href="https://www.besp.by/index.php/en/">the Scientific Research and Design Republican
-                    Unitary Enterprise Belenergosetproject</a></p>
-        </section>
-        <section id="skills">
-            <h2>Skills:</h2>
-            <ul>
-                <li>
-                    <p>HTML</p>
-                </li>
-                <li>
-                    <p>CSS</p>
-                </li>
-                <li>
-                    <p>JavaScript</p>
-                </li>
-                <li>
-                    <p>Git</p>
-                </li>
-            </ul>
-        </section>
-        <section id="code">
-            <h2>Code example:</h2>
-            <pre>
-                <code>
-function highAndLow(numbers){
-  const arrSort = numbers.split(' ').sort((a, b) => a - b);
-  return `${arrSort[arrSort.length - 1]} ${arrSort[0]}`
-};
-                </code>
-            </pre>
-        </section>
-        <section id="experience">
-            <h2>Experience:</h2>
-            <ul>
-                <li>
-                    <p>Working with 3D Max (basic level)</p>
-                </li>
-                <li>
-                    <p>Photoshop (midle level)</p>
-                </li>
-                <li>
-                    <p>CorelDRAW (midle level)</p>
-                </li>
-                <li>
-                    <p>Autodesk AutoCAD (advanced level)</p>
-                </li>
-                <li>
-                    <p>Microsoft Office: Excel, Word, etc. (advanced level)</p>
-                </li>
-                <li>
-                    <p>Had experience in arranging and maitaining Home and local networks</p>
-                </li>
-                <li>
-                    <p>Have experience in bricklaying, woodworking, roofing, finishing works</p>
-                </li>
-            </ul>
-        </section>
-        <section id="projects">
-            <h2>Projects:</h2>
-            <ul>
-                <li>
-                    <p><a href="https://evgeniyzi.github.io/rsschool-cv">CV</a></p>
-                </li>
-            </ul>
-        </section>
-        <section id="languages">
-            <h2>Languages:</h2>
-            <ul>
-                <li>
-                    <p>Russian - native speaker</p>
-                </li>
-                <li>
-                    <p>French - basic knowledge, studied in school</p>
-                </li>
-                <li>
-                    <p>English - basic knowledge, currently self-studying</p>
-                </li>
-            </ul>
-        </section>
+    <main class="wrapper">
+        <div class="left_sidebar">
+            <section id="contacts">
+                <h2>Contacts</h2>
+                <ul>
+                    <li>
+                        <p>Telegram: <i><a href="https://t.me/EvGeniusZi"> <!-- <img src="./images/telegram.png" alt="telegram"> -->@EvGeniusZi</a></i></p>
+                    </li>
+                    <li>
+                        <p>Email: <i><a href="mailto:zimagorov.evgeniy@gmail.com">zimagorov.evgeniy@gmail.com</a></i></p>
+                    </li>
+                    <li>
+                        <p>Discord: <i><a href="https://discordapp.com/users/1233453368891015288/"> evgeniyzi_14947</a></i>
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>
+                        <p>HTML</p>
+                    </li>
+                    <li>
+                        <p>CSS</p>
+                    </li>
+                    <li>
+                        <p>JavaScript</p>
+                    </li>
+                    <li>
+                        <p>Git</p>
+                    </li>
+                </ul>
+            </section>
+            <section id="languages">
+                <h2>Languages</h2>
+                <ul>
+                    <li>
+                        <p>Russian - native speaker</p>
+                    </li>
+                    <li>
+                        <p>French - basic knowledge, studied in school</p>
+                    </li>
+                    <li>
+                        <p>English - basic knowledge, currently self-studying</p>
+                    </li>
+                </ul>
+            </section>
+            <section id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>
+                        <p>Vocational Technical School - 4th-class bricklayer</p>
+                    </li>
+                    <li>
+                        <p>Minsk State Energy College - Construction Technician</p>
+                    </li>
+                    <li>
+                        <p>Polotsk State University - Civil Engineer</p>
+                    </li>
+                    <li>
+                        <p>Belarusian State University of Physical Culture - Coach. Department of Martial Arts</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="right_sidebar">
+            <section id="about_me">
+                <h2>About Me</h2>
+                <p>I am 41 years old. For the last 17 years, I have worked as a design engineer in the construction
+                    department of <i><a href="https://www.besp.by/index.php/en/">the Scientific Research and Design Republican
+                        Unitary Enterprise Belenergosetproject</a></i></p>
+            </section>
+            <section id="code">
+                <h2>Code example</h2>
+                <pre>
+                    <code>
+    function highAndLow(numbers){
+      const arrSort = numbers.split(' ').sort((a, b) => a - b);
+      return `${arrSort[arrSort.length - 1]} ${arrSort[0]}`
+    };
+                    </code>
+                </pre>
+            </section>
+            <section id="experience">
+                <h2>Experience</h2>
+                <ul>
+                    <li>
+                        <p>Working with 3D Max (basic level)</p>
+                    </li>
+                    <li>
+                        <p>Photoshop (midle level)</p>
+                    </li>
+                    <li>
+                        <p>CorelDRAW (midle level)</p>
+                    </li>
+                    <li>
+                        <p>Autodesk AutoCAD (advanced level)</p>
+                    </li>
+                    <li>
+                        <p>Microsoft Office: Excel, Word, etc. (advanced level)</p>
+                    </li>
+                    <li>
+                        <p>Had experience in arranging and maitaining Home and local networks</p>
+                    </li>
+                    <li>
+                        <p>Have experience in bricklaying, woodworking, roofing, finishing works</p>
+                    </li>
+                </ul>
+            </section>
+            <section id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li>
+                        <p><a href="https://evgeniyzi.github.io/rsschool-cv">CV</a></p>
+                    </li>
+                </ul>
+            </section>
+        </div>
     </main>
-    <footer>
-        <p><a href="https://github.com/EvgeniyZi"><img
+    <footer class="wrapper">
+        <p><a href="https://github.com/EvgeniyZi"><img class="github-img"
             src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
-            alt="Git Hub Logo" width="50"></a>My GitHub</p>
-        <p><a href="https://rs.school/courses/javascript-ru"><img
+            alt="Git Hub Logo" width="50"></a></p>
+        <!-- <p><a href="https://rs.school/courses/javascript-ru"><img
             src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/b26a2d42335feffe9cfc3d73accdf61e420917da/tasks/cv/rs-school-logo.svg"
+            alt="RS School logo" width="200"></a></p> -->
+        <p><a href="https://rs.school/courses/javascript-ru"><img
+            src="./images/rs-school-logo.svg"
             alt="RS School logo" width="200"></a></p>
         <p><time>2025</time></p>
     </footer>
